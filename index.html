@@ -11,75 +11,79 @@
 </head>
 
 <body>
-  <header class="header" id="header">
-    <div class="container header__container">
-      <a href="#header">
-        <img class="header__logo" src="./assets/imgs/logo.png"
-          alt="Логотип компании балтсервис, производство и ремонт РВД">
-      </a>
-      <nav class="header__nav">
-        <ul class="header__menu list-reset">
-          <li class="menu__item">
-            <a class="menu__link link" href="#">Продукция</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link link" href="#">Услуги</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link link" href="#">Новости</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link link" href="#">О компании</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link link" href="#">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="overlay"></div>
-      <div class="menu__burger">
-        <span></span>
-        <span></span>
-        <span></span>
+  <header class="header container-xl" id="header">
+    <div class="header__container">
+      <div class="header__left">  
+        <a href="#header">
+          <img class="header__logo" src="./assets/imgs/logo.png"
+            alt="Логотип компании балтсервис, производство и ремонт РВД">
+        </a>
+      </div>
+      <div class="header__right">
+        <nav class="header__nav">
+          <ul class="header__menu list-reset">
+            <li class="menu__item">
+              <a class="menu__link link" href="#">Продукция</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link link" href="#">Услуги</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link link" href="#">Новости</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link link" href="#">О компании</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="overlay"></div>
+        <div class="menu__burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
     </div>
   </header>
-  <article class="head">
+  <article class="head container-xl" style="background: url(./assets/imgs/pics/header-bg.png) #dbeffd 50% / cover no-repeat;">
     <div class="container">
       <div class="head__top">
         <h1 class="head__top-title">Изготовление и ремонт рукавов высокого давления</h1>
       </div>
       <div class="head__bottom">
         <div class="head__bottom-info">
-          <input class="head__bottom-input" type="text" name="search" id="search">
+          <input class="head__bottom-input" type="text" name="search" id="search" placeholder="Поиск по сайту">
           <p class="head__bottom-tel">+7 (812) <span>502-14-14</span></p>
         </div>
         <div class="head__bottom-btns">
-          <button class="btn btn-primary">Каталог "Металлорукава"</button>
-          <button class="btn btn-primary">Каталог "Комплектующие для РВД"</button>
+          <button class="btn">Каталог "Металлорукава"</button>
+          <button class="btn">Каталог "Комплектующие для РВД"</button>
         </div>
       </div>
     </div>
   </article>
   <main class="main">
-    <section class="products">
+    <section class="products container-xl">
       <div class="container">
         <h2 class="section-title">Каталог</h2>
         <div class="products__cards">
           <div class="products__card">
-            <img class="products__card-img" src="../img/" alt="Комплектующие для РВД">
+            <img class="products__card-img" src="./assets/imgs/pics/01.jpg" alt="Комплектующие для РВД">
             <p class="products__card-text">Комплектующие для РВД</p>
           </div>
           <div class="products__card">
-            <img class="products__card-img" src="../img/" alt="Рукава РВД в сборе">
-            <p class="products__card-text">Рукава РВД в сборе</p>
+            <img class="products__card-img" src="./assets/imgs/pics/02.jpg" alt="Рукава РВД в сборе">
+            <p class="products__card-text">Рукава РВД <br> в сборе</p>
           </div>
           <div class="products__card">
-            <img class="products__card-img" src="../img/" alt="Металлорукава высокого давления">
+            <img class="products__card-img" src="./assets/imgs/pics/03.jpg" alt="Металлорукава высокого давления">
             <p class="products__card-text">Металлорукава высокого давления</p>
           </div>
           <div class="products__card">
-            <img class="products__card-img" src="../img/" alt="Сильфонные компенсаторы">
+            <img class="products__card-img" src="./assets/imgs/pics/04.jpg" alt="Сильфонные компенсаторы">
             <p class="products__card-text">Сильфонные компенсаторы</p>
           </div>
         </div>
