@@ -2,15 +2,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-/* ------ */
+ /*========== font | colors | typography ==========*/
 
 :root {
+  --body-font: 'Inter', sans-serif;
+
   --color-dark-blue: #042B46;
   --color-blue: #096CB5;
   --color-cyan: #DBEFFD;
   --color-white: #ffffff;
 
-  --font-text: 17px;
+  --font-text-1: 17px;
+  --font-text-2: 19px;
   --font-link: 17px;
 }
 
@@ -38,7 +41,7 @@ a {
 
 body {
   color: var(--color-dark-blue);
-  font-family: 'Inter', sans-serif;
+  font-family: var(--body-font);
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
