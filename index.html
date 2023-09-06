@@ -6,49 +6,48 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>
   <script src="./assets/js/main.js" defer></script>
   <title>Изготовление и ремонт рукавов высокого давления</title>
 </head>
 
 <body>
   <header class="header container-xl" id="header">
-    <div class="header__container">
-      <div class="header__left">  
-        <a href="#header">
-          <img class="header__logo" src="./assets/imgs/logo.png"
-            alt="Логотип компании балтсервис, производство и ремонт РВД">
-        </a>
-      </div>
-      <div class="header__right">
-        <nav class="header__nav">
-          <ul class="header__menu list-reset">
-            <li class="menu__item">
-              <a class="menu__link link" href="#">Продукция</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link link" href="#">Услуги</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link link" href="#">Новости</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link link" href="#">О компании</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link link" href="#">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="overlay"></div>
-        <div class="menu__burger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+    <div class="header__container container">
+      <a href="#header">
+        <img class="header__logo" src="./assets/imgs/logo.png"
+          alt="Логотип компании балтсервис, производство и ремонт РВД">
+      </a>
+      <nav class="header__nav">
+        <ul class="header__menu list-reset">
+          <li class="menu__item">
+            <a class="menu__link link" href="#">Продукция</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link link" href="#">Услуги</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link link" href="#">Новости</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link link" href="#">О компании</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="overlay"></div>
+      <div class="menu__burger">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
     </div>
   </header>
-  <article class="head container-xl" style="background: url(./assets/imgs/pics/header-bg.png) #dbeffd 50% / cover no-repeat;">
+  <article class="head container-xl"
+    style="background: url(./assets/imgs/pics/header-bg.png) #dbeffd 50% / cover no-repeat;">
     <div class="container">
       <div class="head__top">
         <h1 class="head__top-title">Изготовление и ремонт рукавов высокого давления</h1>
@@ -96,91 +95,97 @@
           <div class="article">
             <p class="article__title">Меры по борьбе с распространением коронавирусной инфекции</p>
             <div class="article__wrapper">
-              <img class="article__img" src="#" alt="Плакат COVID-19">
+              <img class="article__img" src="./assets/imgs/pics/06.jpg" alt="Плакат COVID-19">
               <div class="article__wrapper-text">
                 <p class="article__text">Рекомендации Роспотребнадзора по профилактике новой коронавирусной инфекции
                   COVID-19</p>
-                <button class="btn btn-primary">Baltservic от 21/10/2021 15:22</button>
+                <button class="btn article__btn">Baltservic от 21/10/2021 15:22</button>
               </div>
             </div>
           </div>
           <div class="article">
             <p class="article__title">Рекомендации по выбору РВД (рукава высокого давления)</p>
             <div class="article__wrapper">
-              <img class="article__img" src="#" alt="Рукав">
+              <img class="article__img" src="./assets/imgs/pics/07.jpg" alt="Рукав">
               <div class="article__wrapper-text">
                 <p class="article__text">Информация ниже носит рекомендательный характер и не может рассматриваться как
                   стандарты или прямые указания.</p>
-                <button class="btn btn-primary">Baltservic от 21/10/2021 15:22</button>
+                <button class="btn article__btn">Baltservic от 21/10/2021 15:22</button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="about">
+    <section class="about container-xl">
       <div class="container">
         <h2 class="section-title">О нас говорят</h2>
-        <div class="about__silder">
-          <div class="slide">
-            <img class="about__slider-img" src="#" alt="">
-            <div class="about__slider-wrapper">
-              <div class="about__slider-title">
-                <p>Д.Е. Гуцуляк</p>
-                <p>Генеральный директор СПБОО «Зеленый мир детства»</p>
+        <div class="about__slider swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="about__slider-img" src="./assets/imgs/pics/08.jpg" alt="Благодарность">
+              <div class="about__slider-wrapper">
+                <div class="about__wrapper-title">
+                  <p class="about__silider-title">Д.Е. Гуцуляк</p>
+                  <p class="about__silder-subtitle">Генеральный директор СПБОО «Зеленый мир детства»</p>
+                </div>
+                <div class="about__slider-text">
+                  <h4>Выражаю благодарность ООО «Балтсервис» за отзывчивость, понимание и оказание финансовой поддержки
+                    проведения Театральной недели для 145 сирот, детей из малообеспеченных многодетных и неполных семей,
+                    детей-инвалидов реабилитационного отделения ЦВЛ «Детская психиатрия», Детского дома №26, социального
+                    Детского сада №8, Детского сада “№53 для детей с патологией зрения.</h4>
+                </div>
               </div>
-              <div class="about__slider-text">
-                <h4>Выражаю благодарность ООО «Балтсервис» за отзывчивость, понимание и оказание финансовой поддержки
-                  проведения Театральной недели для 145 сирот, детей из малообеспеченных многодетных и неполных семей,
-                  детей-инвалидов реабилитационного отделения ЦВЛ «Детская психиатрия», Детского дома №26, социального
-                  Детского сада №8, Детского сада “№53 для детей с патологией зрения.</h4>
+            </div>
+            <div class="swiper-slide">
+              <img class="about__slider-img" src="./assets/imgs/pics/09.jpg" alt="Благодарность">
+              <div class="about__slider-wrapper">
+                <div class="about__wrapper-title">
+                  <p class="about__silider-title">А.С. Новиков</p>
+                  <p class="about__silder-subtitle">Заместитель директора ПТО филиала «ЦНИИ СЭТ»</p>
+                </div>
+                <div class="about__slider-text">
+                  <h4>За время сотрудничества ООО «Балтсервис» зарекомендовал себя как компания, умеющая профессионально
+                    выполнять поставленные перед ней задачи, своевременно и в полном объеме выполнять поставку
+                    качественной подукции в адрес заказчика.</h4>
+                </div>
               </div>
             </div>
           </div>
-          <div class="slide">
-            <img class="about__slider-img" src="#" alt="">
-            <div class="about__slider-wrapper">
-              <div class="about__slider-title">
-                <p>А.С. Новиков</p>
-                <p>Заместитель директора ПТО филиала «ЦНИИ СЭТ»</p>
-              </div>
-              <div class="about__slider-text">
-                <h4>За время сотрудничества ООО «Балтсервис» зарекомендовал себя как компания, умеющая профессионально
-                  выполнять поставленные перед ней задачи, своевременно и в полном объеме выполнять поставку
-                  качественной подукции в адрес заказчика.</h4>
-              </div>
-            </div>
+          <div class="about__slider-nav">
+            <div class="slider__btn-prev"></div>
+            <div class="slider__btn-next"></div>
           </div>
-        </div>
-        <div class="about__slider-nav">
-          <div class="slider__btn-prev">arrow left</div>
-          <div class="slider__btn-next">arrow right</div>
         </div>
       </div>
     </section>
   </main>
-  <footer class="footer">
-    <div class="container">
+  <footer class="footer container-xl">
+    <div class="footer__inner">
+      <div class="rectangle-left"></div>
       <nav class="footer__nav">
         <ul class="footer__menu">
           <li class="footer__menu-item">
-            <img class="footer__link-img" src="../img/" alt="" />
-            <a class="footer__link link" href="#">О компании</a>
+            <img class="footer__link-img" src="./assets/imgs/icons/company.svg" alt="О компании" />
+            <a class="footer__link link" href="#"><span>О компании</span></a>
           </li>
           <li class="footer__menu-item">
-            <img class="footer__link-img" src="../img/" alt="" />
-            <a class="footer__link link" href="#">Фотогалерея</a>
+            <img class="footer__link-img" src="./assets/imgs/icons/photo.svg" alt="Фотогалерея" />
+            <a class="footer__link link" href="#"><span>Фотогалерея</span></a>
           </li>
           <li class="footer__menu-item">
-            <img class="footer__link-img" src="../img/" alt="" />
-            <a class="footer__link link" href="#">Справочник</a>
+            <img class="footer__link-img" src="./assets/imgs/icons/list.svg" alt="Справочник" />
+            <a class="footer__link link" href="#"><span>Справочник</span></a>
           </li>
           <li class="footer__menu-item">
-            <img class="footer__link-img" src="../img/" alt="" />
-            <a class="footer__link link" href="#">Сертификаты</a>
+            <img class="footer__link-img" src="./assets/imgs/icons/doc.svg" alt="Сертификаты" />
+            <a class="footer__link link" href="#"><span>Сертификаты</span></a>
           </li>
         </ul>
       </nav>
+      <div class="rectangle-right"></div>
+    </div>
+    <div class="container">
       <div class="footer__contacts">
         <div class="contacts__left">
           <p class="contacts__title">Сервис 24 Санкт-Петербург</p>
@@ -188,24 +193,24 @@
             <a class="contacts__adress" href="#">г. Санкт Петербург,
               ул. Байконурская, д.22, стр.1
             </a>
-            <p class="contacts__phone">тел:<a href="tel:7(906)268-45-53" target="_blank">+7 (906) 268-45-53</a></p>
-            <p class="contacts__email">E-mail:<a href="mailto:rvd@baltservice.org"
-                target="_blank">rvd@baltservice.org</a></p>
+            <p class="contacts__phone">тел:<a href="tel:7(906)268-45-53" target="_blank"> +7 (906) 268-45-53</a></p>
+            <p class="contacts__email">E-mail:<a href="mailto:rvd@baltservice.org" target="_blank">
+                rvd@baltservice.org</a></p>
           </div>
         </div>
         <div class="footer__emblem">
-          <img src="../img/" alt="" />
+          <img src="./assets/imgs/icons/emblem.svg" alt="Эмблема балтсервис" />
         </div>
         <div class="contacts__right">
           <p class="contacts__title">Сервис 24 Воркута</p>
           <div class="contacts__wrapper">
-            <a class="contacts__adress" href="#">г. Воркута,
+            <a class="contacts__adress" href="#">г. Воркута, <br>
               ул. Московская, 6 А
             </a>
-            <p class="contacts__phone">тел:<a href="tel:7(912)961-10-93" target="_blank">+7 (912) 961-10-93
+            <p class="contacts__phone">тел:<a href="tel:7(912)961-10-93" target="_blank"> +7 (912) 961-10-93
               </a></p>
-            <p class="contacts__email">E-mail:<a href="mailto:rvd@baltservice.org"
-                target="_blank">vorkuta@baltservice.org</a></p>
+            <p class="contacts__email">E-mail: <a href="mailto:rvd@baltservice.org" target="_blank">
+                vorkuta@baltservice.org</a></p>
           </div>
         </div>
       </div>
