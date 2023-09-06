@@ -104,23 +104,43 @@ h5 {
 .btn {
   width: 495px;
   height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-size: 100%;
   padding: 17px 28px;
-  font-size: var(--font-text);
-  font-weight: 500;
-  color: var(--color-cyan);
-  border-radius: 3px;
   border: none;
   background: linear-gradient(90deg, #042b46 0%, rgba(4, 43, 70, 0.7) 100%),
     #fff;
+  font-weight: 400;
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding: 8px 24px;
+  font-size: var(--font-text);
+  color: var(--color-cyan);
+  text-align: center;
+  border-radius: 3px;
   cursor: pointer;
+  position: relative;
+  z-index: 100;
 }
 
-.btn:hover {
+.btn:before {
+  border-radius: inherit;
   background: linear-gradient(270deg, #096cb5 0%, rgba(9, 108, 181, 0.7) 100%),
     #fff;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;  
+  opacity: 0;
+  width: 100%;
+  z-index: -100;
+  transition: opacity 0.3s ease-out;
+}
+
+.btn:hover:before {
+  opacity: 1;
 }
 
 /* wrapper */
@@ -436,14 +456,6 @@ h5 {
   gap: 40px;
 }
 
-.about__silder {
-}
-
-.slide {
-  display: flex;
-  gap: 20px;
-}
-
 .about__slider-img {
   width: 186px;
   height: 265px;
@@ -510,9 +522,6 @@ h5 {
 .footer {
   background: var(--color-dark-blue);
   padding-top: 20px;
-}
-
-.footer .container {
 }
 
 .footer__inner {
@@ -656,16 +665,14 @@ h5 {
   background: linear-gradient(90deg, #096cb5 0%, rgba(9, 108, 181, 0) 104.7%);
 }
 
-.swiper{
-  width: 1000px;
+.swiper {
+  width: 100%;
   height: 100%;
 }
 
-.swiper-slide{
-  text-align: center;
-  font-size: 18px;
-  background-color: aliceblue;
-  display: flex;
+.swiper-slide {
+  display: flex !important;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  gap: 20px;
 }
