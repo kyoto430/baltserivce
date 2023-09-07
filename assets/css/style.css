@@ -891,3 +891,32 @@ h5 {
   justify-content: center;
   gap: 20px;
 }
+
+/* SERT PAGE */
+/* sert */
+
+.sert {
+  padding: 0 0 80px 0;
+  background: var(--color-cyan);
+}
+
+.sert .container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.sert__container-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.sert__image {
+  max-width: 598px;
+  max-height: 850px;
+  border-radius: 3px;
+  border: 1px solid rgba(4, 43, 70, 0.3);
+}
