@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>
+  <script src="./assets/js/main.js" defer></script>
+  <title>Новости</title>
+</head>
+
+<body>
+  <header class="header container-xl" id="header">
+    <div class="header__container container">
+      <a href="#header">
+        <img class="header__logo" src="./assets/imgs/logo.png"
+          alt="Логотип компании балтсервис, производство и ремонт РВД">
+      </a>
+      <nav class="header__nav">
+        <ul class="header__menu list-reset">
+          <li class="menu__item">
+            <a class="menu__link link" href="#">Продукция</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link link" href="#">Услуги</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link link" href="#">Новости</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link link" href="#">О компании</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="overlay"></div>
+      <div class="menu__burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+  <article class="head container-xl"
+    style="background: url(./assets/imgs/pics/header-bg.png) #dbeffd 50% / cover no-repeat;">
+    <div class="container">
+      <div class="head__top">
+        <h1 class="head__top-title">Изготовление и ремонт рукавов высокого давления</h1>
+      </div>
+      <div class="head__bottom">
+        <div class="head__bottom-info">
+          <input class="head__bottom-input" type="text" name="search" id="search" placeholder="Поиск по сайту">
+          <p class="head__bottom-tel">+7 (812) <span>502-14-14</span></p>
+        </div>
+        <div class="head__bottom-btns">
+          <button class="btn">Каталог "Металлорукава"</button>
+          <button class="btn">Каталог "Комплектующие для РВД"</button>
+        </div>
+      </div>
+    </div>
+  </article>
+  <main class="main">
+    <section class="news container-xl">
+      <div class="container">
+        <h2 class="section-title">Новости</h2>
+        <div class="news__container-inner">
+          <div class="news__card">
+            <div class="news__card-wrapper">
+              <h4 class="news__card-title">8-й Международный военно-морской салон МВМС-2017</h4>
+              <p class="news__card-text">Компания ООО "Балтсервис" принимает участие в выставке 8-й Международный
+                военно-морской салон МВМС-2017</p>
+              <p class="news__card-text">Павильон 8, стенд 834</p>
+            </div>
+            <button class="btn news__btn">Baltservic от 29/06/2017 15:31</button>
+          </div>
+          <div class="news__card">
+            <div class="news__card-wrapper">
+              <h4 class="news__card-title">Филиал на крайнем севере в г.Воркута</h4>
+              <p class="news__card-text">Компания Балтсервис открыла филиал на крайнем севере в г.Воркута</p>
+            </div>
+            <button class="btn news__btn">Baltservic от 30/01/2017 09:49</button>
+          </div>
+          <div class="news__card">
+            <div class="news__card-wrapper">
+              <h4 class="news__card-title">Свидетельство о признании изготовителя</h4>
+              <p class="news__card-text">Настоящим удостоверяется, что ООО "Балтсервис" признается Российским морским
+                реестром судоходства как изготовитель.</p>
+              <p class="news__card-text">Продукция:</p>
+              <p class="news__card-text">Рукава высокого давления армированные (гибкие соединения), типов SN, SP, SH,
+                PTFE, МБС, R-7, R-8, МТ-1,
+                МТ-2</p>
+            </div>
+            <button class="btn news__btn">Baltservic от 4/04/2016 18:59</button>
+          </div>
+          <div class="news__card">
+            <div class="news__card-wrapper">
+              <h4 class="news__card-title">Новый дизайн сайта</h4>
+              <p class="news__card-text">ООО Балтсервис запускает новый дизайн сайта baltservic.ru.</p>
+              <p class="news__card-text">Обновленный сайт предлагает своим посетителям улучшенную навигацию по всем
+                разделам и более
+                информативное основное меню.</p>
+              <p class="news__card-text">Эти изменения призваны облегчить и ускорить поиск необходимой для Вас
+                продукции.</p>
+            </div>
+            <button class="btn news__btn">Baltservic от 2/02/2016 09:28</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer container-xl">
+    <div class="footer__inner">
+      <div class="rectangle-left"></div>
+      <nav class="footer__nav">
+        <ul class="footer__menu">
+          <li class="footer__menu-item">
+            <img class="footer__link-img" src="./assets/imgs/icons/company.svg" alt="О компании" />
+            <a class="footer__link link" href="#"><span>О компании</span></a>
+          </li>
+          <li class="footer__menu-item">
+            <img class="footer__link-img" src="./assets/imgs/icons/photo.svg" alt="Фотогалерея" />
+            <a class="footer__link link" href="#"><span>Фотогалерея</span></a>
+          </li>
+          <li class="footer__menu-item">
+            <img class="footer__link-img" src="./assets/imgs/icons/list.svg" alt="Справочник" />
+            <a class="footer__link link" href="#"><span>Справочник</span></a>
+          </li>
+          <li class="footer__menu-item">
+            <img class="footer__link-img" src="./assets/imgs/icons/doc.svg" alt="Сертификаты" />
+            <a class="footer__link link" href="#"><span>Сертификаты</span></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="rectangle-right"></div>
+    </div>
+    <div class="container">
+      <div class="footer__contacts">
+        <div class="contacts__left">
+          <p class="contacts__title">Сервис 24 Санкт-Петербург</p>
+          <div class="contacts__wrapper">
+            <a class="contacts__adress" href="#">г. Санкт Петербург,
+              ул. Байконурская, д.22, стр.1
+            </a>
+            <p class="contacts__phone">тел:<a href="tel:7(906)268-45-53" target="_blank"> +7 (906) 268-45-53</a></p>
+            <p class="contacts__email">E-mail:<a href="mailto:rvd@baltservice.org" target="_blank">
+                rvd@baltservice.org</a></p>
+          </div>
+        </div>
+        <div class="footer__emblem">
+          <img src="./assets/imgs/icons/emblem.svg" alt="Эмблема балтсервис" />
+        </div>
+        <div class="contacts__right">
+          <p class="contacts__title">Сервис 24 Воркута</p>
+          <div class="contacts__wrapper">
+            <a class="contacts__adress" href="#">г. Воркута, <br>
+              ул. Московская, 6 А
+            </a>
+            <p class="contacts__phone">тел:<a href="tel:7(912)961-10-93" target="_blank"> +7 (912) 961-10-93
+              </a></p>
+            <p class="contacts__email">E-mail: <a href="mailto:rvd@baltservice.org" target="_blank">
+                vorkuta@baltservice.org</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
