@@ -8,3 +8,14 @@ new Swiper('.about__slider', {
     nextEl: '.slider__btn-next',
   },
 })
+
+new Swiper('.photo__slider', {
+  slidesPerView: 4,
+  slidesPerGroup: 2,
+  spaceBetween: 20,
+  loop: false,
+  navigation: {
+    prevEl: '.slider__btn-prev',
+    nextEl: '.slider__btn-next',
+  },
+})
