@@ -1342,12 +1342,30 @@ h5 {
 /* CATALOG PAGE */
 /* catalog */
 
+.catalog {
+  background: var(--color-cyan);
+}
+
+.catalog .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
 .accordeon {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: -330px;
 }
 
 .accordeon__li {
   position: relative;
-  margin-bottom: 20px;
+  background: var(--color-white);
+  border-radius: 3px
 }
 
 .accordeon__li > input[type='checkbox'] {
@@ -1368,6 +1386,11 @@ h5 {
   align-items: center;
   padding: 10.5px 20px;
   cursor: pointer;
+}
+
+.accordeon-1__btn h4,
+.accordeon-2__btn h4 {
+  font-weight: 500;
 }
 
 .accordeon__btn::after {
@@ -1400,17 +1423,15 @@ h5 {
 }
 
 .accordeon__toggle-inner {
-  padding: 10.5px 20px;
+  
 }
-
-
 
 .accordeon-2 {
 }
 
 .accordeon-2__li {
   position: relative;
-  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(4, 43, 70, 0.2);
 }
 
 .accordeon-2__li > input[type='checkbox'] {
@@ -1429,7 +1450,7 @@ h5 {
   min-height: 50px;
   display: flex;
   align-items: center;
-  padding: 10.5px 20px;
+  padding: 10.5px 20px 10.5px 30px;
   cursor: pointer;
 }
 
@@ -1463,5 +1484,12 @@ h5 {
 }
 
 .accordeon-2__toggle-inner {
-  padding: 10.5px 20px;
+}
+
+.accordeon__list li {
+  color: var(--color-dark-blue);
+  font-size: var(--font-text);
+  font-weight: 500;
+  list-style: inside;
+  padding: 12px 20px;
 }
