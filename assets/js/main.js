@@ -2,7 +2,7 @@ console.log('init project');
 
 new Swiper('.about__slider', {
   slidesPerView: 1,
-  loop: true,
+  loop: false,
   navigation: {
     prevEl: '.slider__btn-prev',
     nextEl: '.slider__btn-next',
