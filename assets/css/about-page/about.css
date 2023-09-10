@@ -1,0 +1,79 @@
+/* ABOUT PAGE */
+/* about */
+
+.about-us {
+  padding: 0 0 80px 0;
+  background: var(--color-cyan);
+}
+
+.about-us .container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.about-us__container-inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 118px;
+}
+
+.about-us__wrapper-text {
+  max-width: 599px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.about-us__text {
+  color: var(--color-dark-blue);
+  font-size: var(--font-text);
+  font-weight: 500;
+}
+
+.about-us__text span {
+  font-weight: 700;
+}
+
+.about-us__wrapper-list {
+  display: flex;
+  flex-direction: column;
+  gap: 22.1px;
+}
+
+.about-us__list-title {
+  color: var(--color-dark-blue);
+  font-size: var(--font-text);
+  font-weight: 700;
+  line-height: 22.1px;
+}
+
+.about-us__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 32px;
+}
+
+.about-us__list li {
+  list-style: inherit;
+}
+
+.about-us__list-item {
+  color: var(--color-dark-blue);
+  font-size: var(--font-text);
+  font-weight: 500;
+  line-height: 22.1px;
+}
+
+.about-us__wrapper-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-us__gallery-top {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
