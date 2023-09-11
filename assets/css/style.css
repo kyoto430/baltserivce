@@ -90,11 +90,11 @@ h5 {
   h1 {
     font-size: 48px;
   }
-  
+
   h2 {
     font-size: 32px;
   }
-  
+
   h3 {
     font-size: 28px;
   }
@@ -602,11 +602,11 @@ h5 {
     flex-direction: column;
     gap: 18px;
   }
-  
+
   .head__bottom-tel {
     font-size: 34px;
   }
-  
+
   .head__bottom-tel > span {
     font-size: 42px;
   }
@@ -615,6 +615,15 @@ h5 {
     width: 354px;
   }
 
+  .footer__menu {
+    width: 900px;
+    gap: 60px;
+    padding: 0px 40px;
+  }
+
+  .contacts__right {
+    width: auto;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -662,9 +671,39 @@ h5 {
     gap: 25px;
     margin: 129px 20px 0 40px;
   }
+
+  .rectangle-right {
+    width: 20px;
+  }
+
+  .rectangle-left {
+    width: 20px;
+  }
+
+  .footer__menu {
+    width: 100%;
+    gap: 30px;
+  }
+
+  .footer__inner {
+    gap: 0px;
+  }
+
+  .footer__contacts {
+    position: relative;
+  }
+
+  .footer__emblem img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+  }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 769px) {
   .header__left {
     width: 50%;
     height: 100%;
@@ -702,17 +741,91 @@ h5 {
   .head__bottom-info {
     gap: 20px;
   }
-  
+
   .head__bottom-tel {
     font-size: 27px;
   }
-  
+
   .head__bottom-tel > span {
     font-size: 40px;
   }
 
   .btn {
     width: 100%;
+  }
+
+  .rectangle-right {
+    display: none;
+  }
+
+  .rectangle-left {
+    display: none;
+  }
+
+  .footer__menu {
+    width: 100%;
+    gap: 30px;
+  }
+
+  .footer__nav {
+    width: 100%;
+  }
+
+  .footer__inner {
+    justify-content: center;
+  }
+
+  .footer__contacts {
+    padding: 40px 0 50px 0;
+  }
+
+  .contacts__left,
+  .contacts__right {
+    gap: 60px;
+  }
+}
+
+@media (max-width: 729px) {
+  .footer {
+    padding-top: 0px;
+  }
+
+  .footer__nav {
+    background-color: var(--color-blue);
+  }
+
+  .footer__link {
+    color: var(--color-white);
+  }
+
+  .footer__menu {
+    height: auto;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px;
+  }
+
+  .footer__contacts {
+    padding: 20px 0 20px 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .contacts__left,
+  .contacts__right {
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .contacts__wrapper {
+    height: 110px;
+  }
+
+  .footer__emblem img {
+    width: 90%;
+    height: 90%;
   }
 }
 
@@ -730,7 +843,7 @@ h5 {
   .head__bottom-tel {
     font-size: 27px;
   }
-  
+
   .head__bottom-tel > span {
     font-size: 27px;
   }
