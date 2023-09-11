@@ -78,3 +78,55 @@
   max-height: 500px;
   border-radius: 3px;
 }
+
+/* media */
+
+@media (max-width: 1024px) {
+  .cont__service-info {
+    gap: 10px;
+  }
+
+  .cont__service-adress,
+  .cont__service-phone,
+  .cont__service-mail,
+  .cont__service-time,
+  .cont__service-help {
+    font-size: 19px;
+  }
+
+  .cont__service-block {
+    gap: 25px;
+  }
+}
+
+@media (max-width: 590px) {
+  .cont {
+    padding: 0 0 40px 0;
+  }
+
+  .cont .container {
+    gap: 20px;
+  }
+
+  .cont__service-adress,
+  .cont__service-phone,
+  .cont__service-mail,
+  .cont__service-time,
+  .cont__service-help {
+    font-size: 17px;
+  }
+
+  .cont__service-adress a,
+  .cont__service-phone a,
+  .cont__service-mail a {
+    font-size: 15px;
+  }
+
+  .cont__service-title {
+    font-size: 24px;
+  }
+
+  .cont__service-wrapper {
+    flex-direction: column;
+  }
+}

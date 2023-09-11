@@ -65,3 +65,44 @@
   font-weight: 500;
   text-align: justify;
 }
+
+/* media */
+
+@media (max-width: 1024px) {
+  .sale__container-inner {
+    gap: 20px;
+  }
+
+  .sale__wrapper-text {
+    width: 50%;
+  }
+
+  .sale__wrapper-list {
+    width: 50%;
+  }
+}
+
+
+@media (max-width: 769px) {
+  .sale {
+    padding: 0 0 40px 0;
+  }
+
+  .sale .container {
+    gap: 20px;
+  }
+
+  .sale__container-inner {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .sale__wrapper-text {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .sale__wrapper-list {
+    width: 100%
+  }
+}

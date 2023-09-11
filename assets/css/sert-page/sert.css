@@ -26,3 +26,25 @@
   border-radius: 3px;
   border: 1px solid rgba(4, 43, 70, 0.3);
 }
+
+/* media */
+
+@media (max-width: 1024px) {
+  .sert .container {
+    gap: 30px;
+  }
+
+  .sert__image {
+    height: 500px;
+  }
+}
+
+@media (max-width: 590px) {
+  .sert {
+    padding: 0 0 40px 0;
+  }
+
+  .sert .container {
+    gap: 20px;
+  }
+}

@@ -423,6 +423,7 @@ h5 {
 }
 
 .footer__inner {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -430,6 +431,7 @@ h5 {
 }
 
 .footer__nav {
+  width: inherit;
   display: flex;
   justify-content: center;
   background: var(--color-cyan);
@@ -450,6 +452,7 @@ h5 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 
 .footer__link-img {
@@ -682,11 +685,7 @@ h5 {
 
   .footer__menu {
     width: 100%;
-    gap: 30px;
-  }
-
-  .footer__inner {
-    gap: 0px;
+    gap: 15px;
   }
 
   .footer__contacts {
@@ -701,6 +700,7 @@ h5 {
     bottom: 0;
     margin: auto;
   }
+  
 }
 
 @media (max-width: 769px) {

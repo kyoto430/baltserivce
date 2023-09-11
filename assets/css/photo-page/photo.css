@@ -28,3 +28,26 @@
   display: flex;
   gap: 20px;
 }
+
+/* media */
+
+@media (max-width: 1024px) {
+  .photo .container {
+    gap: 30px;
+  }
+
+  .photo__slider-title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 590px) {
+  
+  .photo {
+    padding: 0 0 40px 0;
+  }
+
+  .photo__slider-title {
+    font-size: 20px;
+  }
+}

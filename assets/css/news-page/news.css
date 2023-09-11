@@ -61,3 +61,33 @@
   width: 300px;
   margin-top: 20px;
 }
+
+/* media */
+
+@media (max-width: 1024px) {
+
+  .news {
+    padding: 0 0 60px 0;
+  }
+
+  .news__container-inner {
+    row-gap: 20px;
+  }
+
+  .news__card {
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(4, 43, 70, 0.3);
+  }
+}
+
+@media (max-width: 590px) {
+  .news .container {
+    gap: 30px;
+  }
+
+  .news {
+    padding: 0 0 40px 0;
+  }
+}
