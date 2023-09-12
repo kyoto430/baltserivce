@@ -155,7 +155,7 @@
   }
 
   .accordeon {
-    margin-top: -30px;
+    margin-top: -21px;
   }
 }
 
@@ -189,6 +189,10 @@
 
   .head-2 {
     height: 137px;
+  }
+
+  .accordeon {
+    margin-top: -28px;
   }
 
   .accordeon__btn {

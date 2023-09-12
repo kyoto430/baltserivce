@@ -35,10 +35,6 @@
   text-decoration: underline;
 }
 
-/* .news__card:hover .btn:before {
-  opacity: 1;
-} */
-
 .news__card-title {
   color: var(--color-blue);
   font-size: 24px;
@@ -65,7 +61,6 @@
 /* media */
 
 @media (max-width: 1024px) {
-
   .news {
     padding: 0 0 60px 0;
   }
