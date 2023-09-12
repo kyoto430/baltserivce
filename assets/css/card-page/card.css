@@ -11,7 +11,6 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 80px;
-  overflow-x: auto;
 }
 
 .card-tables {
@@ -149,6 +148,7 @@
   }
 
   .card-tables {
+    width: inherit;
     margin-top: 0px;
   }
 
@@ -187,7 +187,6 @@
   }
 
   .card__description-wrapper {
-    width: 60%;
     flex-direction: column;
     gap: 15px;
   }
@@ -216,10 +215,6 @@
 @media (max-width: 375px) {
   .head-2 {
     height: 173px;
-  }
-
-  .card__description-wrapper {
-    width: 45%;
   }
 
   .card__btn {
